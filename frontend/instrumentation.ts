@@ -1,6 +1,6 @@
 export async function register() {
   if (process.env.NEXT_RUNTIME === 'nodejs') {
-    // Initialize Datadog tracer for Node.js runtime
+    // Initialize Datadog HTTP API client
     const { initDatadog } = await import('./src/lib/datadog');
     initDatadog();
   }
