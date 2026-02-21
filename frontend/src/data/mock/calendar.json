@@ -1,0 +1,63 @@
+[
+  {
+    "id": "cal_001",
+    "provider": "gcal",
+    "type": "event",
+    "title": "Team Standup",
+    "startTime": "2026-02-20T17:00:00Z",
+    "endTime": "2026-02-20T17:30:00Z",
+    "attendees": [
+      {"name": "You", "email": "you@company.com"},
+      {"name": "Alex Chen", "email": "alex@company.com"},
+      {"name": "Emma Wilson", "email": "emma@company.com"}
+    ],
+    "location": "Zoom",
+    "meetingLink": "https://zoom.us/j/123456789",
+    "description": "Daily sync - discuss blockers and priorities",
+    "priorityScore": 70,
+    "urgency": "high",
+    "summary": "Daily standup in 25 minutes",
+    "whyItMatters": "Regular team sync",
+    "suggestedAction": "prep_notes"
+  },
+  {
+    "id": "cal_002",
+    "provider": "gcal",
+    "type": "event",
+    "title": "1:1 with Manager",
+    "startTime": "2026-02-20T21:00:00Z",
+    "endTime": "2026-02-20T21:30:00Z",
+    "attendees": [
+      {"name": "You", "email": "you@company.com"},
+      {"name": "Lisa Park", "email": "lisa@company.com"}
+    ],
+    "location": "Google Meet",
+    "meetingLink": "https://meet.google.com/abc-defg-hij",
+    "description": "Weekly check-in - career growth discussion",
+    "priorityScore": 60,
+    "urgency": "normal",
+    "summary": "Weekly 1:1 at 2pm",
+    "whyItMatters": "Career discussion scheduled",
+    "suggestedAction": "prep_notes"
+  },
+  {
+    "id": "cal_003",
+    "provider": "gcal",
+    "type": "event",
+    "title": "Product Review",
+    "startTime": "2026-02-21T18:00:00Z",
+    "endTime": "2026-02-21T19:00:00Z",
+    "attendees": [
+      {"name": "You", "email": "you@company.com"},
+      {"name": "Jordan Lee", "email": "jordan@company.com"},
+      {"name": "Product Team", "email": "product@company.com"}
+    ],
+    "location": "Conference Room A",
+    "description": "Q1 product roadmap review",
+    "priorityScore": 55,
+    "urgency": "normal",
+    "summary": "Product review tomorrow at 11am",
+    "whyItMatters": "Q1 roadmap discussion",
+    "suggestedAction": "prep_notes"
+  }
+]
